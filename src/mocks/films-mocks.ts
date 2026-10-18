@@ -1,6 +1,6 @@
-import {Film, Promo} from '../types/films';
+import type {PromoFilmType, FilmsType} from '../types/films';
 
-export const FILMS: Film[] = [
+export const FILMS: FilmsType = [
   { id: 1, title: 'Fantastic Beasts: The Crimes of Grindelwald', posterImage: 'img/fantastic-beasts-the-crimes-of-grindelwald.jpg', genre: 'Fantasy', year: 2018 },
   { id: 2, title: 'Bohemian Rhapsody', posterImage: 'img/bohemian-rhapsody.jpg', genre: 'Drama', year: 2018 },
   { id: 3, title: 'Macbeth', posterImage: 'img/macbeth.jpg', genre: 'Drama', year: 2015 },
@@ -23,4 +23,4 @@ export const FILMS: Film[] = [
   { id: 20, title: 'The Grand Budapest Hotel', posterImage: 'img/the-grand-budapest-hotel-poster.jpg', genre: 'Drama', year: 2014 },
 ];
 
-export const PROMO: Promo = { title: 'The Grand Budapest Hotel', genre: 'Drama', year: 2014 };
+export const PROMO: PromoFilmType = { title: 'The Grand Budapest Hotel', genre: 'Drama', year: 2014 };

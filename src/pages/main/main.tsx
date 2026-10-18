@@ -1,9 +1,9 @@
 import FilmCard from '../../components/film-card/film-card';
-import { Film, Promo } from '../../types/films';
+import { FilmsType, PromoFilmType } from '../../types/films';
 
 type MainProps = {
-  films: Film[];
-  promo: Promo;
+  films: FilmsType;
+  promo: PromoFilmType;
 }
 
 const Main = ({films = [], promo }: MainProps): JSX.Element => (
